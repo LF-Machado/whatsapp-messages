@@ -1,0 +1,49 @@
+.message__container {
+  display: flex;
+  justify-content: center;
+}
+
+.message__form {
+  align-self: center;
+  width: 55vw;
+  background-color: rgb(165, 167, 170) !important;
+  border-width: medium !important;
+  border-color: rgb(93, 192, 166) !important;
+}
+
+.form__phone {
+  margin-bottom: 3rem;
+}
+
+.form__phone__label {
+  font-weight: 500;
+}
+
+.form__message__label {
+  font-weight: 500;
+}
+
+.form__button {
+  width: fit-content;
+  border: 1px solid rgb(93, 192, 166) !important;
+  border-radius: 5px !important;
+  padding: 6px 12px !important;
+  cursor: pointer;
+  background-color: rgb(93, 192, 166) !important;
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+.form__button:hover {
+  background-color: rgb(85, 172, 149) !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
