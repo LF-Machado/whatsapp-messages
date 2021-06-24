@@ -16,6 +16,7 @@ function App() {
           />
         </Navbar.Brand>
         <h2 className="navbar__title">WhatsApp Messages</h2>
+        <div className="navbar__filler"></div>
       </Navbar>
       <Message />
     </div>

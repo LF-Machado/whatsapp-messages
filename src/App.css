@@ -19,3 +19,22 @@
   color: white;
   margin-left: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    height: auto;
+  }
+
+  .navbar__logo {
+    margin-left: 0;
+    width: 3rem;
+  }
+
+  .navbar__title {
+    margin-left: 0;
+    font-size: 24px;
+  }
+  .navbar__filler {
+    width: 5rem;
+  }
+}
