@@ -20,7 +20,7 @@ function Message() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const newMessage = transformMessage();
-    window.location.href = `whatsapp://send?text=${newMessage}&phone=57${phone}}`;
+    window.location.href = `whatsapp://send?text=${newMessage}&phone=${phone}}`;
   };
   return (
     <div className="message__container">
